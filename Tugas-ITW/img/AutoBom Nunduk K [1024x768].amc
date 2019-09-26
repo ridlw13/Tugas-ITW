@@ -1,0 +1,51 @@
+<Root>
+	<DefaultMacro>
+		<Major></Major>
+		<Description>
+###################################
+#Auto Lempar Bom Nunduk No Kedip versi layar Kotak By ARIC#
+- Bom Key : 4
+- Layar : Kotak 1024x768
+- Mouse Sensitiv : 500(lempar ke bawah) atau 590(lempar ke atas)
+
+* Nggak ngeflood/nyepam huruf 4
+* Script ini juga bisa untuk Auto Tumbal 3R
+* Keampuhannya sudah di uji di ITB/IPB
+* By ARIC
+###################################
+</Description>
+		<Comment>AutoNunduk K ARIC
+</Comment>
+		<GUIOption>
+			<RepeatType>2</RepeatType>
+		</GUIOption>
+		<KeyUp>
+			<Syntax></Syntax>
+		</KeyUp>
+		<KeyDown>
+			<Syntax>Delay 100 ms
+LeftUp 1
+Delay 100 ms
+LeftDown 1
+Delay 100 ms
+LeftUp 1
+Delay 100 ms
+LeftDown 1
+Delay 100 ms
+MoveTo 880 670
+KeyDown 33 1
+Delay 175 ms
+KeyUp 33 1
+KeyDown 42 1
+KeyUp 42 1
+Delay 175 ms
+KeyDown 40 1
+Delay 150 ms
+KeyUp 40 1
+Delay 150 ms
+GoWhile 10 7
+Goto 1</Syntax>
+		</KeyDown>
+		<Software>AutoBom Nunduk Kotak By ARIC
+</Software></DefaultMacro>
+</Root>

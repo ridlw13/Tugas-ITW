@@ -1,0 +1,32 @@
+<Root>
+	<DefaultMacro>
+		<Major></Major>
+		<Description> choi  ! ! !
+</Description>
+		<Comment>AWP choi ! ! !
+</Comment>
+		<GUIOption>
+			<RepeatType>0</RepeatType>
+		</GUIOption>
+		<KeyUp>
+			<Syntax></Syntax>
+		</KeyUp>
+		<KeyDown>
+			<Syntax>RightDown 1
+Delay 25 ms
+LeftDown 1
+Delay 20 ms
+WheelDown 1
+Delay 18 ms
+WheelUp 1
+Delay 17 ms
+KeyDown 9 1
+KeyDown 9 1
+Delay 25 ms
+KeyUp 9 1
+KeyDown 9 1
+Delay 25 ms</Syntax>
+		</KeyDown>
+		<Software>AWP
+</Software></DefaultMacro>
+</Root>
